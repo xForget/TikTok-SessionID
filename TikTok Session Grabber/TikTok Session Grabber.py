@@ -12,7 +12,7 @@ class tigtog():
         if choice == 1:
             self.username = input("Username: ")
             self.password = input("Password: ")
-            self.login(username,password)
+            self.login()
         elif choice == 2:
             for xx in open("list.txt","r").read().splitlines():
                 i = str(xx)
